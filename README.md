@@ -10,12 +10,6 @@ Rust game servers can experience performance bottlenecks due to excessive memory
 - Overriding `ConsoleSystem.BuildCommand` for optimized command processing.
 - Using `ReadOnlySpan` for direct writing of commands to `NetWrite` (Stream).
 
-## Features
-
-- **Memory Optimization**: Significantly reduces memory allocations by avoiding unnecessary intermediate objects.
-- **Efficient Command Processing**: Utilizes `ReadOnlySpan` for direct command writing, improving performance.
-- **Enhanced Performance**: Lower memory usage and improved server responsiveness.
-
 ![image](https://github.com/user-attachments/assets/d5357301-8042-45f3-843d-7e391527d591)
 
 ## Prerequisites
