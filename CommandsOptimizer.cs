@@ -7,7 +7,7 @@ using Oxide.Core.Plugins;
 using Oxide.Ext.ZString;
 using UnityEngine;
 
-namespace Oxide.Plugins.CommandsOptimizer
+namespace Oxide.Plugins
 {
     public static class CommandBuilder
     {
